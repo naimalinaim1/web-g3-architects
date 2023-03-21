@@ -32,14 +32,6 @@ a {
   align-items: center;
 }
 
-/* header bg */
-header {
-  width: 100%;
-  height: 100vh;
-  max-height: 1300px;
-  background: rgba(255, 144, 14, 0.1);
-}
-
 .btn {
   background: #ff900e;
   border: 0;
@@ -50,4 +42,13 @@ header {
   line-height: 23px;
   color: #ffffff;
   cursor: pointer;
+}
+
+/* text primary */
+.text-primary {
+  color: #ff900e;
+}
+
+.text-black {
+  color: #131313;
 }

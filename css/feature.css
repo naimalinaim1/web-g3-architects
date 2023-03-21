@@ -1,0 +1,39 @@
+/* web feature section */
+.feature-section {
+  margin-top: 85px;
+  padding: 0 15px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 70px;
+}
+
+/* feature image */
+.feature-images img {
+  max-width: 342px;
+  max-height: 342px;
+}
+
+.feature-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+/* feature text */
+.feature-text h2 {
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 53px;
+  color: #727272;
+}
+
+.feature-text h2 span {
+  font-weight: 700;
+}
+
+.feature-text  p {
+    margin: 30px 0;
+    line-height: 26px;
+    color: #727272;
+}
