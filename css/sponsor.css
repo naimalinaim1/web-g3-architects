@@ -1,0 +1,30 @@
+/* sponsor section */
+.sponsor-section {
+  margin-top: 180px;
+  text-align: center;
+}
+
+.sponsor-section > h3 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  margin-bottom: 24px;
+  color: #131313;
+}
+
+.sponsor-section > p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+
+.sponsor-items {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 150px;
+  margin-top: 50px;
+}
+
+.sponsor-items img {
+  filter: grayscale(100%);
+}

@@ -37,9 +37,8 @@
   align-items: center;
 }
 
-.fact-container > div i {
-  color: #ff900e;
-  font-size: 40px;
+.fact-container > div img {
+  width: 45px;
 }
 
 .fact-container > div h3 {
